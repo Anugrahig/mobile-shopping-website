@@ -1,0 +1,89 @@
+header {
+  background-color: #000;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Because we want header to be sticky later */
+  height: 9.6rem; /* To make header Sticky */
+  padding: 0 4.8rem;
+  position: relative;
+}
+.heading-text {
+  font-size: 3.2rem;
+  color: #fff;
+}
+
+/* header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+header .cart-count-header {
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff398f;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+header .right-section {
+  position: relative;
+}
+.cart-icon {
+  width: 32px !important;
+  height: 32px !important;
+  cursor: pointer;
+  color: #fff;
+}
+
+.search-bar {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  .btn-search {
+    padding: 0 8px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 38px;
+  }
+}
+input {
+  font-size: 18px;
+  width: 70%;
+  padding: 5px 5px 5px 10px;
+  height: 38px;
+  outline: none;
+}
+
+/* .search-bar {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  form {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    button {
+      padding: 0 8px;
+      font-size: 20px;
+      cursor: pointer;
+      height: 38px;
+    }
+  }
+  input {
+    font-size: 18px;
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    height: 38px;
+    outline: none;
+  }
+} */

@@ -1,0 +1,46 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading h1 {
+  font-size: 18px;
+}
+.heading img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartlist-container {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px 160px;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.cart-items {
+  list-style: none;
+}
+button {
+  padding: 10px 10px;
+}
+.btn-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn-control h6 {
+  margin-top: 10px;
+}
+.btn {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+}
+
+.left-section img {
+  width: 75%;
+}
+.price-details-deatailed {
+  display: flex;
+  // flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+.original_price {
+  text-decoration: line-through;
+  color: #878787;
+}
+.description {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+.btn-special-padding {
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  padding-right: 8rem;
+}
