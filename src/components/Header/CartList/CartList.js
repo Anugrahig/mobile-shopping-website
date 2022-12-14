@@ -1,48 +1,80 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 import { useDispatch, useSelector } from "react-redux";
 import "./CartList.scss";
-import { reset, deleteItem, increment, decrement } from "../../../redux/cart";
+import { deleteItem, increment, decrement } from "../../../redux/cart";
+import { numberWithCommas } from "../../numberWithCommas";
 
 const CartList = () => {
   const { cartList } = useSelector((state) => state.cart);
 
   const dispatch = useDispatch();
+  // console.log("Cart", cartList);
+  const total = cartList.reduce(
+    (total, cartItem) => total + cartItem.count * cartItem.dis_price,
+    0
+  );
 
   const cartItems = cartList.map((item) => {
     return (
       <ul className="cartlist-container" key={item.id}>
-        <div className="title">
-          <h4>{item.title}</h4>
-          <img src={item.image} alt={item.image} />
-        </div>
-        <div className="btn-control">
-          <button className="btn" onClick={() => dispatch(decrement(item.id))}>
-            -
-          </button>
-          <h6>{item.count}</h6>
-          <button className="btn" onClick={() => dispatch(increment(item.id))}>
-            +
-          </button>
-          <button className="btn" onClick={() => dispatch(deleteItem(item.id))}>
-            Delete
-          </button>
+        <div className="cartlist-details">
+          <Fragment>
+            <div className="cartlist-image-container">
+              <img src={item.image} alt={item.image} />
+            </div>
+          </Fragment>
+          <div className="product-name-price btn-control-item-count">
+            <h4 className="cart-item-count">
+              {item.title.substring(0, item?.title.indexOf("|"))}
+            </h4>
+            <h4 className="cart-item-count">
+              ₹ {numberWithCommas(item.dis_price)}
+            </h4>
+          </div>
+          <div className="btn-control">
+            <button
+              className="btn cart-counter-button"
+              onClick={() => dispatch(decrement(item.id))}
+            >
+              -
+            </button>
+            <h6 className="cart-item-count btn-control-item-count">
+              {item.count}
+            </h6>
+            <button
+              className="btn cart-counter-button"
+              onClick={() => dispatch(increment(item.id))}
+            >
+              +
+            </button>
+            <button
+              className="btn "
+              onClick={() => dispatch(deleteItem(item.id))}
+            >
+              Delete
+            </button>
+          </div>
+          <h4 className="total-price cart-item-count btn-control-item-count ">
+            ₹ {numberWithCommas(item.dis_price * item.count)}
+          </h4>
         </div>
       </ul>
     );
   });
   return (
-    <div className="cart">
+    <div className="  container pad-4 section-padding height-container ">
       {cartItems.length !== 0 ? (
-        <div className="heading">
-          <h1>Cart Items</h1>
-          <li className="cart-items">{cartItems}</li>
-          <button className="btn" onClick={() => dispatch(reset())}>
-            Reset Cart
-          </button>
-        </div>
+        <span>
+          <div className="heading">
+            <li className="cart-items">{cartItems}</li>
+          </div>
+          <h3 className=" cart-total cart-item-count ">
+            Total : ₹ {numberWithCommas(total)}
+          </h3>
+        </span>
       ) : (
-        <h5 className="heading">Your cart is empty </h5>
+        <h5 className=" heading-tertiary no-item ">Your cart is empty </h5>
       )}
     </div>
   );

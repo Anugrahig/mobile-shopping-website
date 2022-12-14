@@ -3,8 +3,8 @@
     "id": 0,
     "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/m/i/j/-original-imaggceewkgkxthq.jpeg?q=70",
     "title": "OnePlus 10T | Black | 128 GB | 8 GB RAM",
-    "org_price": "₹ 49,879",
-    "dis_price": "₹ 47,249 ",
+    "org_price": "49879",
+    "dis_price": "47249 ",
     "highlight": [
       "8 GB RAM | 128 GB ROM",
       "17.02 cm (6.7 inch) Display",
@@ -13,28 +13,13 @@
     ],
     "description": "Enjoy on-the-go entertainment with the powerful Redmi Note 10T mobile phone. This mobile phone comes with a large 16.5 cm (6.5) FHD+ display and a 90 Hz refresh rate so that you can experience seamless viewing and gaming. Also, it runs on a Mediatek Dimensity 700 processor that offers high-end performance and blazing-fast gaming. Moreover, thanks to the 5000 mAh battery, you can indulge in overnight game-play without worrying about power running out."
   },
-  {
-    "id": 1,
-    "image": "https://rukminim1.flixcart.com/image/832/832/k65d18w0/mobile/4/k/4/poco-x2-mzb9011in-original-imafzz2hbfkvftm5.jpeg?q=70",
-    "title": "POCO X2 |  Blue | 64 GB | 6 GB RAM",
-    "org_price": "₹ 17,999",
-    "dis_price": "₹ 14,999 ",
-    "highlight": [
-      "6 GB RAM | 64 GB ROM | Expandable Upto 512 GB",
-      "16.94 cm (6.67 inch) Full HD+ Display",
-      "64MP + 8MP + 2MP + 2MP | 20MP + 2MP Dual Front Camera",
-      "4500 mAh Lithium-ion Polymer Battery",
-      "Qualcomm Snapdragon 730G Processor"
-    ],
-    "description": "Get set to game, capture, and watch your favourite content on the POCO X2 smartphone. Featuring the RealityFlow display, a quad rear camera system (64 MP Sony IMX686 sensor, 8 MP ultra-wide sensor, 2 MP depth sensor, and 2 MP macro sensor), and the liquid cooling system, this smartphone has everything in place to help you do anything in the most suitable manner. Get ready to stun everyone with your picture-perfect selfies, thanks to this smartphone's dual in-screen cameras. That’s not all, with the presence of the 4500 mAh battery, you can be sure that this smartphone will be with you throughout."
-  },
 
   {
-    "id": 2,
+    "id": 1,
     "image": "https://rukminim1.flixcart.com/image/832/832/kg8avm80/mobile/j/f/9/apple-iphone-12-dummyapplefsn-original-imafwg8dkyh2zgrh.jpeg?q=70",
     "title": "Apple iPhone 12| White | 128 GB ",
-    "org_price": "₹ 70,900",
-    "dis_price": "₹ 61,800",
+    "org_price": "70900",
+    "dis_price": "61800",
     "highlight": [
       "128 GB ROM",
       "15.49 cm (6.1 inch) Super Retina XDR Display",
@@ -47,12 +32,28 @@
     ],
     "description": "Dive into a world of crystal-clear visuals with this iPhone’s Super Retina XDR Display. This beast of a smartphone packs the A14 Bionic chip to make for blazing-fast performance speeds. On top of that, its Dual-camera System, along with Night Mode, helps you click amazing pictures and selfies even when the lighting isn’t as good as you’d want it to be."
   },
+
+  {
+    "id": 2,
+    "image": "https://rukminim1.flixcart.com/image/832/832/k2jbyq80pkrrdj/mobile-refurbished/y/k/z/iphone-11-64-a-mwlx2hn-a-apple-0-original-imafkg24ymsjav9h.jpeg?q=70",
+    "title": "APPLE iPhone 11| Purple | 128 GB ",
+    "org_price": "48900",
+    "dis_price": "42999",
+    "highlight": [
+      "128 GB ROM",
+      "15.49 cm (6.1 inch) Liquid Retina HD Display",
+      "12MP + 12MP | 12MP Front Camera",
+      "A13 Bionic Chip Processor"
+    ],
+    "description": "The iPhone 11 boasts a gorgeous all-screen Liquid Retina LCD that is water resistant up to 2 metres for up to 30 minutes. Moreover, the ultra-wide 13 mm lens has a 120-degree field of view for four times more scenes, and the 26 mm wide lens provides up to 100% Autofocus in low light."
+  },
+
   {
     "id": 3,
     "image": "https://rukminim1.flixcart.com/image/832/832/kqqykcw0/mobile/p/y/u/galaxy-f22-sm-e225fzkhins-samsung-original-imag4z99fagskjxd.jpeg?q=70",
     "title": "SAMSUNG Galaxy F22 | Black| 128 GB | 6 GB RAM",
-    "org_price": "₹ 16,999",
-    "dis_price": "₹ 12,499",
+    "org_price": "16999",
+    "dis_price": "12499",
     "highlight": [
       "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
       "16.26 cm (6.4 inch) HD+ Display",
@@ -66,8 +67,8 @@
     "id": 4,
     "image": "https://rukminim1.flixcart.com/image/832/832/l2jcccw0/mobile/h/x/3/-original-imagduwqakhhkrse.jpeg?q=70",
     "title": "OPPO K10 | Blue | 128 GB |  6 GB RAM",
-    "org_price": "₹ 18,999",
-    "dis_price": "₹ 13,990",
+    "org_price": "18999",
+    "dis_price": "13990",
     "highlight": [
       "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
       "16.74 cm (6.59 inch) Full HD+ Display",
@@ -79,41 +80,29 @@
     ],
     "description": "Get the photographer in you to light with Oppo K10. Designed specifically for camera lovers this phone comes with a 50 MP triple camera setup. Thanks to its varied camera features such as Night Scape Mode, Night Flare Portraits, and Bokeh Mode helps capture mesmerising images with crystal-clear imagery. The 16 MP selfie camera captures stunning selfies and helps you boost your social media presence. Powered by Qualcomm Snapdragon 680 with 6 nm architecture, this phone enhances your operational efficiency and gets you on top of your game. Featuring 6 GB of RAM and 128 GB of internal storage, you can practically store all that you want in your phone. Furthermore, this phone boasts a Dynamic RAM Expansion technology that converts unused memory into RAM, thereby, increasing the efficiency of your phone."
   },
+
   {
     "id": 5,
-    "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/b/o/n/-original-imagg3myvj6f3pez.jpeg?q=70",
-    "title": "REALME C30S | Blue | 32 GB | 2 GB RAM ",
-    "org_price": "₹ 9,999",
-    "dis_price": "₹ 6,999",
+    "image": "https://rukminim1.flixcart.com/image/832/832/k65d18w0/mobile/4/k/4/poco-x2-mzb9011in-original-imafzz2hbfkvftm5.jpeg?q=70",
+    "title": "POCO X2 |  Blue | 64 GB | 6 GB RAM",
+    "org_price": "17999",
+    "dis_price": "14999 ",
     "highlight": [
-      "2 GB RAM | 32 GB ROM | Expandable Upto 1 TB",
-      "16.51 cm (6.5 inch) HD+ Display",
-      "8MP Rear Camera | 5MP Front Camera",
-      "5000 mAh Lithium Ion Battery",
-      "Unisoc SC9863A/ Unisoc SC9863A1 Processor"
+      "6 GB RAM | 64 GB ROM | Expandable Upto 512 GB",
+      "16.94 cm (6.67 inch) Full HD+ Display",
+      "64MP + 8MP + 2MP + 2MP | 20MP + 2MP Dual Front Camera",
+      "4500 mAh Lithium-ion Polymer Battery",
+      "Qualcomm Snapdragon 730G Processor"
     ],
-    "description": "The realme C30s, which is packed with a variety of innovative features, offers seamless gameplay and an exceptional user experience. This smartphone's powerful Octa-core processor enables you to switch between apps and boost productivity. Furthermore, you can play intensive games with fluent performance thanks to an 88.7% screen-to-body ratio and a 16.5 cm (6.5) fullscreen display. You can store movies, photos, and much more on this phone without any problems owing to its amazing storage capacity of up to 1 TB."
+    "description": "Get set to game, capture, and watch your favourite content on the POCO X2 smartphone. Featuring the RealityFlow display, a quad rear camera system (64 MP Sony IMX686 sensor, 8 MP ultra-wide sensor, 2 MP depth sensor, and 2 MP macro sensor), and the liquid cooling system, this smartphone has everything in place to help you do anything in the most suitable manner. Get ready to stun everyone with your picture-perfect selfies, thanks to this smartphone's dual in-screen cameras. That’s not all, with the presence of the 4500 mAh battery, you can be sure that this smartphone will be with you throughout."
   },
+
   {
     "id": 6,
-    "image": "https://rukminim1.flixcart.com/image/832/832/k2jbyq80pkrrdj/mobile-refurbished/y/k/z/iphone-11-64-a-mwlx2hn-a-apple-0-original-imafkg24ymsjav9h.jpeg?q=70",
-    "title": "APPLE iPhone 11| Purple | 128 GB ",
-    "org_price": "₹ 48,900",
-    "dis_price": "₹ 42,999",
-    "highlight": [
-      "128 GB ROM",
-      "15.49 cm (6.1 inch) Liquid Retina HD Display",
-      "12MP + 12MP | 12MP Front Camera",
-      "A13 Bionic Chip Processor"
-    ],
-    "description": "The iPhone 11 boasts a gorgeous all-screen Liquid Retina LCD that is water resistant up to 2 metres for up to 30 minutes. Moreover, the ultra-wide 13 mm lens has a 120-degree field of view for four times more scenes, and the 26 mm wide lens provides up to 100% Autofocus in low light."
-  },
-  {
-    "id": 7,
     "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/f/n/f/-original-imaggbtuwq32w4et.jpeg?q=70",
     "title": "VIVO T1X | Black | 64 GB |4 GB RAM",
-    "org_price": "₹ 16,990",
-    "dis_price": "₹ 11,999",
+    "org_price": "16990",
+    "dis_price": "11999",
     "highlight": [
       "4 GB RAM | 64 GB ROM",
       "16.71 cm (6.58 inch) Full HD+ Display",
@@ -124,11 +113,11 @@
     "description": "The iPhone 11 boasts a gorgeous all-screen Liquid Retina LCD that is water resistant up to 2 metres for up to 30 minutes. Moreover, the ultra-wide 13 mm lens has a 120-degree field of view for four times more scenes, and the 26 mm wide lens provides up to 100% Autofocus in low light."
   },
   {
-    "id": 8,
+    "id": 7,
     "image": "https://rukminim1.flixcart.com/image/832/832/l1l1rww0/mobile/v/7/n/-original-imagd48zkjwujxzz.jpeg?q=70",
     "title": "MOTOROLA e40 | Gray | 64 GB |  4 GB RAM",
-    "org_price": "₹ 10,999",
-    "dis_price": "₹ 8,599",
+    "org_price": "10999",
+    "dis_price": "8599",
     "highlight": [
       "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
       "16.51 cm (6.5 inch) HD+ Display",
@@ -139,11 +128,11 @@
     "description": "The moto e40 features a custom-designed UNISOC T700 Octa-core 1.8 GHz processor so that you can enjoy an efficient graphics performance. You can multitask with ease, thanks to the mobile phone’s 4 GB of RAM. And, its spacious 64 GB of ROM (that’s expandable up to 1 TB), you can store all your data in a single place."
   },
   {
-    "id": 9,
+    "id": 8,
     "image": "https://rukminim1.flixcart.com/image/832/832/l3t2fm80/mobile/7/w/5/-original-imageu8c4ae9sezr.jpeg?q=70",
     "title": "REALME 9 | Black | 128 GB | 6 GB RAM",
-    "org_price": "₹ 20,999",
-    "dis_price": "₹ 14,999",
+    "org_price": "20999",
+    "dis_price": "14999",
     "highlight": [
       "6 GB RAM | 128 GB ROM | Expandable Upto 256 GB",
       "16.26 cm (6.4 inch) Full HD+ AMOLED Display",
@@ -154,11 +143,11 @@
     "description": "Binge-watch your favourite shows, play games and do more with the realme 9 smartphone. This mobile phone is equipped with a massive 5000 mAh battery that allows you to indulge in entertainment throughout the day. Also, this mobile phone has a powerful Snapdragon 680 Processor to offer smooth and easy multitasking performance. Moreover, thanks to the realme UI 3.0, you can enjoy easy upgrades and optimised features on this phone."
   },
   {
-    "id": 10,
+    "id": 9,
     "image": "https://rukminim1.flixcart.com/image/832/832/l4n2oi80/mobile/x/o/a/-original-imagfhu75eupxyft.jpeg?q=70",
     "title": "SAMSUNG Galaxy F13 | Blue| 64 GB |4 GB RAM",
-    "org_price": "₹ 14,999",
-    "dis_price": "₹ 10,999 ",
+    "org_price": "14999",
+    "dis_price": "10999 ",
     "highlight": [
       "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
       "16.76 cm (6.6 inch) Full HD+ Display",
@@ -169,11 +158,11 @@
     "description": "Enjoy seamless connectivity and an uninterrupted movie marathon with the impressive Samsung Galaxy F13 that is designed specifically to impress the entertainment fanatics. This smartphone features a terrific 16.62 cm (6.6) FHD+ LCD Display that can effortlessly blow your mind with its incredible performance. Furthermore, this phone boasts a 50 MP Triple Camera setup that allows you to capture awesomeness with a gentle tap. Moreover, the Samsung Galaxy F13 sports up to 8 GB of RAM and features an innovative RAM plus technology that taps into the phone’s internal storage to elevate its performance."
   },
   {
-    "id": 11,
+    "id": 10,
     "image": "https://rukminim1.flixcart.com/image/832/832/l0tweq80/mobile/w/r/t/-original-imagcgtgwg5taegn.jpeg?q=70",
     "title": "REDMI 10 |Blue | 64 GB|  4 GB RAM",
-    "org_price": "₹ 14,999",
-    "dis_price": "₹ 9,999  ",
+    "org_price": "14999",
+    "dis_price": "9999  ",
     "highlight": [
       "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
       "17.02 cm (6.7 inch) HD+ Display",
@@ -184,11 +173,11 @@
     "description": "Let go of the inhibitions and enjoy speed operation and flawless user experience with Redmi 10. This phone is powered by Snapdragon 680 processor with a savvy 6 nm architecture that makes juggling fun. This device is incorporated with 4 GB of RAM and 64 GB of internal storage that provides you with seamless efficiency. With the UFS 2.2 storage, you can experience an unmatched speed in the operation. This smartphone boasts a large 6000 mAh battery with an 18 W fast charging capability giving your phone a necessary boost to achieve optimal efficiency. With a mesmerising 17.04 cm (6.71) display and a 20.6:9 aspect ratio, Redmi 10 offers an immersive user experience. The Redmi 10 is equipped with a 50 MP camera and a 2 MP depth sensor allowing you to capture breathtaking pictures with enthralling imagery."
   },
   {
-    "id": 12,
+    "id": 11,
     "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/h/r/b/-original-imagh29eqd3zrvaf.jpeg?q=70",
     "title": "MOTOROLA G62 | Gray | 128 GB  |6 GB RAM",
-    "org_price": " ₹ 21,999",
-    "dis_price": "₹ 15,999 ",
+    "org_price": "21999",
+    "dis_price": "15999 ",
     "highlight": [
       "6 GB RAM | 128 GB ROM",
       "16.64 cm (6.55 inch) Full HD+ Display",
@@ -199,11 +188,11 @@
     "description": "With the Moto G62, you can enjoy lag-free gaming, seamless multitasking, and stunning stutter-free graphics. This phone allows you to juggle while savouring entertainment owing to its astounding 16.51 cm (6.5) FHD+ Ultra-smooth display and refresh rate of 120 Hz. In addition, you can perform excellently without the smartphone overheating thanks to the Snapdragon 695 5G processor and 6 GB of RAM. Moreover, this phone's 50 MP main camera allows you to capture breathtaking images with incredible imagery."
   },
   {
-    "id": 13,
+    "id": 12,
     "image": "https://rukminim1.flixcart.com/image/832/832/l3dcl8w0/mobile/y/f/b/-original-imageg2qrjbhfqyb.jpeg?q=70",
     "title": "Infinix HOT 12 Play | Black | 64 GB  | 4 GB RAM",
-    "org_price": "₹11,999",
-    "dis_price": "₹8,499 ",
+    "org_price": "11999",
+    "dis_price": "8499 ",
     "highlight": [
       "4 GB RAM | 64 GB ROM | Expandable Upto 256 GB",
       "17.32 cm (6.82 inch) HD+ Display",
@@ -214,11 +203,11 @@
     "description": "Enjoy smooth operation and intuitive performance with the HOT 12 which comes loaded with features to keep you amused throughout the day. Its brilliant 17.32 cm (6.82) HD+ Punch Hole display delivers a captivating visual experience with a narrow bezel advantage. Furthermore, the powerful 6000 mAh battery equipped with this phone gives it a long-lasting battery life and enhanced productivity. Moreover, HOT 12 Play is powered by a 12 nm UniSOC T610 1.8GHz Octa-core processor with 4 GB of RAM + up to 3 GB of virtual RAM and 64 GB o internal storage to ease your experience and boost your performance. Additionally, this phone boasts a 13 MP rear camera and an 8 MP selfie camera that facilitates capturing incredible pictures with impeccable imagery."
   },
   {
-    "id": 14,
+    "id": 13,
     "image": "https://rukminim1.flixcart.com/image/832/832/ku04o7k0/mobile/x/x/t/9i-sport-mzb0a10in-redmi-original-imag785rwf3q8sft.jpeg?q=70",
     "title": "REDMI 9i Sport | Blue | 64 GB | 4 GB RAM",
-    "org_price": "₹ 9,999",
-    "dis_price": "₹ 7,999 ",
+    "org_price": "9999",
+    "dis_price": "7999 ",
     "highlight": [
       "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB",
       "16.59 cm (6.53 inch) HD+ Display",
@@ -229,11 +218,11 @@
     "description": "Enjoy watching videos and plunge yourself into a world of entertainment with the Redmi 9i Sport’s 16.58-cm (6.53) big HD+ IPS display, which delivers rich details and vivid colours.Check your social media, play a game, and do much more simultaneously, thanks to the smooth performance and efficiency provided by 4 GB of RAM."
   },
   {
-    "id": 15,
+    "id": 14,
     "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/l/l/z/-original-imaggvfzzt7qhhax.jpeg?q=70",
     "title": "MOTOROLA G32 | Black | 64 GB |  4 GB RAM",
-    "org_price": "₹ 16,999",
-    "dis_price": "₹ 10,999",
+    "org_price": "16999",
+    "dis_price": "10999",
     "highlight": [
       "4 GB RAM | 64 GB ROM",
       "16.64 cm (6.55 inch) Full HD+ Display",
@@ -244,11 +233,11 @@
     "description": "You can experience lag-free gaming, fluid multitasking, and stunning, stutter-free images with the Moto G32. With a mind-blowing 16.51 cm (6.5) FHD+ Ultra-wide display and a refresh rate of 90 Hz, this phone makes it possible to multitask while being entertained. Furthermore, with a Snapdragon 680 Octa-core processor and 4 GB of RAM, you can juggle brilliantly without the smartphone overheating while enjoying an amazing UI. Moreover, this phone has a 50 MP primary camera with an 8 MP ultra-wide lens, enabling you to capture breath-taking timeless beauty."
   },
   {
-    "id": 16,
+    "id": 15,
     "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/s/s/a/-original-imaghsptxpgsqqry.jpeg?q=70",
     "title": "POCO M5 | Blue | 64 GB |  4 GB RAM",
-    "org_price": "₹ 15,999",
-    "dis_price": "₹ 10,499 ",
+    "org_price": "15999",
+    "dis_price": "10499 ",
     "highlight": [
       "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB",
       "16.71 cm (6.58 inch) Full HD+ Display",
@@ -259,11 +248,11 @@
     "description": "The POCO M5 is powered by the 6nm MediaTek Helio G99 Processor. A 6nm process on a powerful chipset is a deadly combo that delivers surreal power to this phone. Efficiency and sustained levels of unwavering performance are a guarantee that this SoC brings to the table."
   },
   {
-    "id": 17,
+    "id": 16,
     "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/b/j/3/-original-imaghh2fyy8xzszj.jpeg?q=70",
     "title": "REDMI Note 11 | Blue | 64 GB  | 6 GB RAM",
-    "org_price": "₹ 16,999",
-    "dis_price": "₹ 12,999  ",
+    "org_price": "16999",
+    "dis_price": "12999  ",
     "highlight": [
       "6 GB RAM | 64 GB ROM | Expandable Upto 512 GB",
       "16.33 cm (6.43 inch) Full HD+ Display",
@@ -274,11 +263,11 @@
     "description": "Discover new perspectives and take advantage of seamless performance with the Redmi Note 11 SE, which is packed with a number of exceptional features. The Helio G95 HyperEngine Game Technology, which powers this phone, enables spectacular gameplay and outstanding graphic quality. Also offering stutter-free streaming and fluid navigation is its 16.33 cm (6.42) Super AMOLED display. Moreover, the 64 MP quad-camera setup and 13 MP selfie camera on this smartphone provide speedy image processing while capturing stunning landscapes all around you."
   },
   {
-    "id": 18,
+    "id": 17,
     "image": "https://rukminim1.flixcart.com/image/832/832/l0fm07k0/mobile/8/9/n/-original-imagc7tmhcbrarpk.jpeg?q=70",
     "title": "POCO M4 Pro | Blue | 128 GB |  6 GB RAM",
-    "org_price": "₹ 19,999",
-    "dis_price": "₹ 13,999 ",
+    "org_price": "19999",
+    "dis_price": "13999 ",
     "highlight": [
       "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
       "16.33 cm (6.43 inch) Full HD+ AMOLED Display",
@@ -289,11 +278,11 @@
     "description": "With 6 GB of RAM, 128 GB of internal storage, Helio G96 processor, UFS 2.2 WriteBooster, and Liquid Cooling Technology, this POCO M4 Pro is an elegantly built phone for all your multitasking requirements. This phone can steal the show everywhere you carry it due to its appealing design. This phone delivers a compelling visual experience with a 16.33 cm (6.43) savvy display, a refreshing rate of 90 Hz, and a touch sampling rate of 180 Hz. This phone boasts a 5000 mAh battery that is capable of lasting for a long period. It also has a 33 W quick charging interface that can fully charge your phone in around 61 minutes. Additionally, This phone has a triple camera setup that includes a 64 MP back camera and 8 MP Ultrawide lens with a field of vision of 118 degrees for taking high-quality photos. It is also equipped with a 16 MP front camera that helps capture stunning selfies."
   },
   {
-    "id": 19,
+    "id": 18,
     "image": "https://rukminim1.flixcart.com/image/832/832/kesv0y80/mobile/w/g/r/mi-redmi-9a-b08696xb4b-original-imafve7pjpemhwk5.jpeg?q=70",
     "title": "Redmi 9A | Blue | 32 GB | 3 GB RAM",
-    "org_price": " ₹ 8,525",
-    "dis_price": "₹ 7,990",
+    "org_price": "8525",
+    "dis_price": "7990",
     "highlight": [
       "3 GB RAM | 32 GB ROM | Expandable Upto 512 GB",
       "16.59 cm (6.53 inch) HD+ Display",
@@ -304,11 +293,11 @@
     "description": "13MP rear camera with AI portrait, AI scene recognition, HDR, pro mode | 5MP front camera 16.58 centimeters (6.53 inch) HD+ multi-touch capacitive touchscreen with 1600 x 720 pixels resolution, 268 ppi pixel density and 20:9 aspect ratio Memory, Storage & SIM: 2GB RAM, 32GB internal memory expandable up to 512GB | Dual SIM (nano+nano) + Dedicated SD card slot Android v10 operating system with upto 2.0GHz clock speed Mediatek Helio G25 octa core processor 5000mAH lithium-polymer large battery with 10W wired charger in-box"
   },
   {
-    "id": 20,
+    "id": 19,
     "image": "https://rukminim1.flixcart.com/image/832/832/kq18n0w0/mobile/d/b/6/narzo-30-5g-rmx3242-realme-original-imag45yjub2vdrzx.jpeg?q=70",
     "title": "realme Narzo 30 | Silver | 128 GB  | 6 GB RAM",
-    "org_price": "₹ 17,999",
-    "dis_price": "₹ 16,999 ",
+    "org_price": "17999",
+    "dis_price": "16999 ",
     "highlight": [
       "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
       "16.51 cm (6.5 inch) Full HD+ Display",

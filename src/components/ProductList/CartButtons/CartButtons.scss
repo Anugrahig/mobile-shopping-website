@@ -29,7 +29,9 @@
   align-items: center;
   justify-content: center;
 }
-
+.cart-counter-button:hover {
+  background-color: #4b4a54;
+}
 /* Before Cart */
 
 .add-cart-button {
@@ -48,9 +50,7 @@
 .add-cart-button:hover {
   background-color: #4b4a54;
 }
-/* .product-container.active .add-cart-button,
-.product-container:hover .add-cart-button,
-.product-container.active .after-cart,
-.product-container:hover .after-cart {
-  top: -30px;
-} */
+
+button {
+  cursor: pointer;
+}

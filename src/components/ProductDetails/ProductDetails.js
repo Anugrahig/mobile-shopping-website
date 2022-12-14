@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import "./ProductDetails.scss";
 import products from "../../api/products.json";
 import CartButtons from "../ProductList/CartButtons";
+import { numberWithCommas } from "../numberWithCommas";
 const ProductDetails = () => {
   const { title } = useParams();
   console.log(title);
@@ -30,8 +31,10 @@ const ProductDetails = () => {
               <div className="right-section">
                 <h3 className="heading-quaternary">{product.title}</h3>
                 <div className="price-details-deatailed heading-price ">
-                  <h4>{product?.dis_price}</h4>
-                  <h4 className="original_price">{product?.org_price}</h4>
+                  <h4>₹ {numberWithCommas(product?.dis_price)}</h4>
+                  <h4 className="original_price">
+                    ₹ {numberWithCommas(product?.org_price)}
+                  </h4>
                 </div>
                 <h3 className="heading-senary">Key features</h3>
                 {
