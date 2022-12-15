@@ -1,9 +1,10 @@
 import React, { Fragment } from "react";
 
 import { useDispatch, useSelector } from "react-redux";
-import "./CartList.scss";
 import { deleteItem, increment, decrement } from "../../../redux/cart";
 import { numberWithCommas } from "../../numberWithCommas";
+import DeleteIcon from "@mui/icons-material/Delete";
+import "./CartList.scss";
 
 const CartList = () => {
   const { cartList } = useSelector((state) => state.cart);
@@ -52,7 +53,7 @@ const CartList = () => {
               className="btn "
               onClick={() => dispatch(deleteItem(item.id))}
             >
-              Delete
+              <DeleteIcon />
             </button>
           </div>
           <h4 className="total-price cart-item-count btn-control-item-count ">
@@ -63,13 +64,13 @@ const CartList = () => {
     );
   });
   return (
-    <div className="  container pad-4 section-padding height-container ">
+    <div className="  container pad-4 padd-4 section-padding height-container ">
       {cartItems.length !== 0 ? (
         <span>
           <div className="heading">
             <li className="cart-items">{cartItems}</li>
           </div>
-          <h3 className=" cart-total cart-item-count ">
+          <h3 className=" cart-total cart-total-price cart-price-total-last ">
             Total : ₹ {numberWithCommas(total)}
           </h3>
         </span>

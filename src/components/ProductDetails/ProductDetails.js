@@ -6,7 +6,7 @@ import CartButtons from "../ProductList/CartButtons";
 import { numberWithCommas } from "../numberWithCommas";
 const ProductDetails = () => {
   const { title } = useParams();
-  console.log(title);
+  // console.log(title);
 
   return (
     <div>
@@ -16,7 +16,7 @@ const ProductDetails = () => {
           return (
             <div
               key={product.id}
-              className="grid grid-2-colmns container pad-4 section-padding "
+              className="grid  grid-2-colmns grid-gap container pad-4 section-padding "
             >
               <div className="left-section">
                 <img
@@ -24,11 +24,11 @@ const ProductDetails = () => {
                   alt={product.title}
                   className="mb-sm"
                 />
-                <div className="btn-special-padding">
+                <div className="btn-special-padding btn-grid-row">
                   <CartButtons product={product} />
                 </div>
               </div>
-              <div className="right-section">
+              <div className=" right-section-product-details">
                 <h3 className="heading-quaternary">{product.title}</h3>
                 <div className="price-details-deatailed heading-price ">
                   <h4>₹ {numberWithCommas(product?.dis_price)}</h4>

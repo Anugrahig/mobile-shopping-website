@@ -11,7 +11,7 @@ const HeaderHome = () => {
 
   return (
     <header>
-      <div className="header">
+      <div className="header-home">
         <Link to="/">
           <h3 className="heading-text">Smartprice</h3>
         </Link>

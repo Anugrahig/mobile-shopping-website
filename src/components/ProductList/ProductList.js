@@ -1,19 +1,19 @@
 import React from "react";
-import "./ProductList.scss";
 
 import { useSelector } from "react-redux";
 import CartButtons from "./CartButtons";
 import { useNavigate } from "react-router-dom";
 import { numberWithCommas } from "../numberWithCommas";
+import "./ProductList.scss";
 
 const ProductList = () => {
   const navigate = useNavigate();
-  const { searching } = useSelector((state) => state.cart);
+
   const { searchData } = useSelector((state) => state.cart);
 
   return (
     <section className="container grid grid--4-cols pad-4 section-padding ">
-      {console.log("Length ==", searching)}
+      {/* {console.log("Length ==", searching)} */}
       {searchData.length === 0 && (
         <h1 className="heading-tertiary no-item">No Phone found</h1>
       )}

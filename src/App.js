@@ -6,6 +6,7 @@ import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 import HomePage from "./Pages/HomePage";
 import ProductDetailsPage from "./Pages/ProductDetailsPage";
+import "./queries.scss";
 
 function App() {
   return (
