@@ -1,11 +1,8 @@
 /* After Cart */
 .after-cart {
   display: flex;
-  position: relative;
+  // position: relative;
   align-items: center;
-  /* top: 50px;
-  margin: 10px 0;
-  transition: all 0.3s ease-in-out; */
 }
 
 .cart-count {
@@ -23,8 +20,6 @@
   border: none;
   border-radius: 0.45rem;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  // text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,11 +36,6 @@
   padding: 1rem 3.2rem;
   border: none;
   border-radius: 0.2rem;
-  /* position: relative;
-  top: 50px;
-  border-radius: 4.5px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out; */
 }
 .add-cart-button:hover {
   background-color: #4b4a54;
