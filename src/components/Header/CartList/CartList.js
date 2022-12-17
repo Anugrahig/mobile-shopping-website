@@ -5,10 +5,11 @@ import { deleteItem, increment, decrement } from "../../../redux/cart";
 import { numberWithCommas } from "../../numberWithCommas";
 import DeleteIcon from "@mui/icons-material/Delete";
 import "./CartList.scss";
+import { useNavigate } from "react-router-dom";
 
 const CartList = () => {
   const { cartList } = useSelector((state) => state.cart);
-
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   // console.log("Cart", cartList);
   const total = cartList.reduce(
@@ -22,7 +23,12 @@ const CartList = () => {
         <div className="cartlist-details">
           <Fragment>
             <div className="cartlist-image-container">
-              <img src={item.image} alt={item.image} />
+              <img
+                src={item.image}
+                alt={item.image}
+                className="click-pointer"
+                onClick={() => navigate(`/products/${item.title}`)}
+              />
             </div>
           </Fragment>
           <div className="product-name-price btn-control-item-count">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import "./Header.scss";
 import { Link } from "react-router-dom";
@@ -7,9 +7,18 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const Header = () => {
   const { cartList } = useSelector((state) => state.cart);
+  const [fix, setFix] = useState(false);
+  const StickyNavbar = () => {
+    if (window.scrollY >= 700) {
+      setFix(true);
+    } else {
+      setFix(false);
+    }
+  };
+  window.addEventListener("scroll", StickyNavbar);
 
   return (
-    <header>
+    <header className={fix ? "header fixed" : "header"}>
       <div className="header">
         <Link to="/">
           <h3 className="heading-text">Smartprice</h3>

@@ -161,55 +161,11 @@
     font-size: 1.5rem;
     font-weight: 500;
   }
-  .cartlist-container .cartlist-details {
-    padding: 3rem 1.5rem;
-    gap: 1.5rem;
-  }
-  .btn-control {
-    gap: 1.5rem;
-  }
-}
 
-/* Below 426px (Large Phones) */
-@media (max-width: 26.625em) {
-  .grid {
-    column-gap: 4rem;
-    row-gap: 6rem;
-  }
-  .product-container img {
-    width: 24rem;
-    height: 17rem;
-  }
-  .add-cart-button {
-    padding: 1rem 2rem;
-
-    border-radius: 0.6rem;
-  }
-  .cart-price-total-last {
-    margin-right: 1.5rem;
-  }
-}
-
-/* Below 376px (Medium Phones) */
-@media (max-width: 23.375em) {
-  .cart-counter-button {
-    width: 3rem;
-    height: 3rem;
-  }
-  button {
-    // padding: 0.7rem;
-    padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
-  }
-}
-
-/* Below 320px (Small Phones) */
-@media (max-width: 20em) {
   .cartlist-container .cartlist-details {
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: 1fr 0.3fr;
-    gap: 0;
   }
   .cartlist-image-container {
     grid-column: 1/ 2;
@@ -224,12 +180,84 @@
     grid-row: 1/2;
   }
   .cartlist-container .cartlist-details .cartlist-image-container {
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 60%;
   }
   .product-name-price {
     align-items: start;
   }
+  .cartlist-container .cartlist-details {
+    column-gap: 0.5rem;
+    row-gap: 0;
+  }
+
+  .btn-control-item-count {
+    margin-top: 0;
+  }
+
+  .btn-control {
+    gap: 1.5rem;
+
+    margin-left: -4rem;
+  }
+  .product-name-price {
+    gap: 0.5rem;
+  }
+  .cartlist-container .cartlist-details {
+    padding-bottom: 1.5rem;
+  }
+  .cart-price-total-last {
+    margin-right: 3rem;
+  }
+
+  .footer .logo-container {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+}
+
+/* Below 426px (Large Phones) */
+@media (max-width: 26.625em) {
+  .grid {
+    column-gap: 4rem;
+    row-gap: 6rem;
+  }
+  .product-container img {
+    width: 22rem;
+    height: 15rem;
+  }
+  .add-cart-button {
+    padding: 1rem 2rem;
+
+    border-radius: 0.6rem;
+  }
+  .cart-price-total-last {
+    margin-right: 2.5rem;
+  }
+  .search-bar {
+    margin-left: -4rem;
+  }
+}
+
+/* Below 376px (Medium Phones) */
+@media (max-width: 23.375em) {
+  .cart-counter-button {
+    width: 3rem;
+    height: 3rem;
+  }
+  button {
+    // padding: 0.7rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+  .header-home,
+  .header {
+    padding: 0 3.6rem;
+  }
+}
+
+/* Below 320px (Small Phones) */
+@media (max-width: 20em) {
   .product-container img {
     width: 20rem;
     height: 14rem;
@@ -247,5 +275,12 @@
 
   .cart-count {
     margin: 0 2rem;
+  }
+  .header-home,
+  .header {
+    padding: 0 3rem;
+  }
+  .search-bar {
+    margin-left: -3rem;
   }
 }
