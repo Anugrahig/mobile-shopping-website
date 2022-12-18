@@ -51,6 +51,9 @@ header .right-section {
     font-size: 2rem;
     cursor: pointer;
     height: 3.8rem;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
   }
 }
 input {
@@ -61,6 +64,7 @@ input {
   outline: none;
   border: none;
   color: #fff;
+  border-radius: 0.2rem;
 }
 
 .header.fixed,
