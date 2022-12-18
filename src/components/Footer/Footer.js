@@ -36,8 +36,7 @@ const Footer = () => {
           </li>
         </ul>
         <Link to="/">
-          {/* <img className="logo-company" src={Logo} alt="foodly logo" /> */}
-          <h3 class="heading-text">Smartprice</h3>
+          <h3 className="heading-text">Smartprice</h3>
         </Link>
         <p className="copyright footer-text">
           Copyright &copy; <span className="year"> {date} </span> by Smartprice,
