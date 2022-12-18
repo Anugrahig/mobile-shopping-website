@@ -9,7 +9,7 @@ const Header = () => {
   const { cartList } = useSelector((state) => state.cart);
   const [fix, setFix] = useState(false);
   const StickyNavbar = () => {
-    if (window.scrollY >= 700) {
+    if (window.scrollY >= 500) {
       setFix(true);
     } else {
       setFix(false);
@@ -18,8 +18,8 @@ const Header = () => {
   window.addEventListener("scroll", StickyNavbar);
 
   return (
-    <header className={fix ? "header fixed" : "header"}>
-      <div className="header">
+    <header>
+      <div className={fix ? "header fixed" : "header"}>
         <Link to="/">
           <h3 className="heading-text">Smartprice</h3>
         </Link>

@@ -19,8 +19,8 @@ const HeaderHome = () => {
   window.addEventListener("scroll", StickyNavbar);
 
   return (
-    <header className={fix ? "header fixed" : "header"}>
-      <div className="header-home">
+    <header>
+      <div className={fix ? "header-home fixed" : "header-home"}>
         <Link to="/">
           <h3 className="heading-text">Smartprice</h3>
         </Link>
